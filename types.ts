@@ -1,0 +1,9 @@
+
+export enum SimulationStatus {
+  IDLE = 'IDLE',
+  UPLOADING = 'UPLOADING',
+  ENCRYPTING = 'ENCRYPTING',
+  STORED = 'STORED',
+  DECRYPTING = 'DECRYPTING',
+  COMPLETE = 'COMPLETE',
+}
